@@ -1,0 +1,47 @@
+/* .free-shipping{
+    
+    
+} */
+.ship-icon{
+    font-size: 9rem;
+    /* border: .2rem solid #bbe6f8; */
+    background-color: #e4b2d6;
+    color: #fff;
+    transition: all linear .2s;
+}
+.ship-icon:hover{
+    background-color: #82AE46;
+    color: rgba(255, 255, 255, 0.781);
+}
+.qualify-icon{
+    font-size: 9rem;
+    /* border: .2rem solid #bbe6f8; */
+    background-color: #a2d1e1;
+    color: #fff;
+    transition: all linear .2s;
+}
+.qualify-icon:hover{
+    background-color: #82AE46;
+    color: rgba(255, 255, 255, 0.781);
+}
+.support-icon{
+    font-size: 9rem;
+    /* border: .2rem solid #bbe6f8; */
+    background-color: #dcd691;
+    color: #fff;
+    transition: all linear .2s;
+}
+.support-icon:hover{
+    background-color: #82AE46;
+    color: rgba(255, 255, 255, 0.781);
+}
+span{
+    font-size: .9rem;
+}
+.feature-items{
+    background-color: #c1e2f05b;
+}
+
+
+
+/* #dcd691 */
