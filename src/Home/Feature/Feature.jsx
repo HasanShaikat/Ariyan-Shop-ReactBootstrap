@@ -83,6 +83,7 @@ const Feature = () => {
                 <div className="feature-top">
                     <h2 className='pt-2 fw-bold'>Top Selling Products <ImFire className='text-warning fs-3'></ImFire></h2>
                 </div>
+                <hr />
             <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
