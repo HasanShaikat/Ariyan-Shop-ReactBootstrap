@@ -24,7 +24,7 @@ const HeroSection = () => {
         >
           <SwiperSlide>
             <div className='fullBanner w-100 mx-auto fluid text-light'>
-              <img src="./banner_pic/banner-1.jpg" alt="" className='fluid'/>
+              <img src="./banner_pic/banner-1.jpg" alt="" className='img-fluid'/>
               {/* <div className='banner-contect'>
                 <h3>it's working!</h3>
                 <h4>Yes</h4>
@@ -32,15 +32,14 @@ const HeroSection = () => {
               </div> */}
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
+          <SwiperSlide>
             <div className='fullBanner w-100 mx-auto text-light'>
-              <img src="./banner_pic/banner-2.jpg" alt="" className='fluid'/>
-              
+              <img src="./banner_pic/banner-2.jpg" alt="" className='img-fluid'/>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
           <SwiperSlide>
             <div className='fullBanner w-100 mx-auto'>
-              <img src="./banner_pic/banner-3.jpg" alt="" className='fluid'/>
+              <img src="./banner_pic/banner-3.jpg" alt="" className='img-fluid'/>
               {/* <div className='banner-contect'>
                 <h3>it's working!</h3>
                 <h4>Yes</h4>

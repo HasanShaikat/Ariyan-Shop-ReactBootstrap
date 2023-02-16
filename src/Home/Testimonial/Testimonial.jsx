@@ -26,14 +26,14 @@ const Testimonial = () => {
     <div style={{background: "#c1e2f05b"}} className="py-4">
         <Container>
             <div>
-                <p className='fw-bold'>TESTIMONIAL</p>
-                <h4 className='fw-semibold' >Our satisfied customer says !</h4>
+                <h3 className='fw-semibold'>TESTIMONIAL</h3>
+                <p className='fw-semibold' >Our satisfied customer says !</p>
                 <hr />
             </div>
             <Row>
             {testimonials.map((testimonial) => (
             <Col md={4} key={testimonial.name}>
-                <Card className="border-0 pt-2">
+                <Card className="border-0 pt-2 my-2">
                 <div className="d-flex justify-content-center align-items-center">
                 <Card.Img className='w-25 rounded-pill me-3' src={testimonial.image} />
                 <Card.Title className='fw-bold'>{testimonial.name} <BsFillPatchCheckFill className='text-success'></BsFillPatchCheckFill></Card.Title>

@@ -46,7 +46,7 @@ const Products = () => {
         <div className='py-4'>
             <Container>
                 <div>
-                    <h4>Our Products</h4>
+                    <h3 className='fw-semibold'>Our Products</h3>
                 </div>
                 <hr />
             <Row>
@@ -66,7 +66,7 @@ const Products = () => {
                                 <BsBookmarkStarFill className='text-warning'></BsBookmarkStarFill>
                                 <BsBookmarkStarFill className='text-warning'></BsBookmarkStarFill>
                             </div>
-                            <Nav.Link className='text-danger p-2 roundes fs-5'><AiOutlineShoppingCart></AiOutlineShoppingCart></Nav.Link>
+                            <Nav.Link className='text-danger  roundes fs-5'><AiOutlineShoppingCart></AiOutlineShoppingCart></Nav.Link>
                         </div>
                     </Card.Body>
                 </Card>

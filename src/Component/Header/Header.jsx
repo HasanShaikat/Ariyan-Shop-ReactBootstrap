@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Header.css';
 import { BiMailSend, BiMap, BiPhoneCall } from "react-icons/bi";
+import { FaCartArrowDown } from "react-icons/fa";
 
 
 const Header = () => {
@@ -16,8 +17,8 @@ const Header = () => {
                         </Row>
                     </Container>
                 </div>
-                <Navbar collapseOnSelect expand="md">
-                    <Container>
+                <Container>
+                    <Navbar collapseOnSelect expand="md">
                         <Navbar.Brand href="#home" ><img src="./logo-color.png" alt="" className='fluid'/></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
@@ -26,10 +27,11 @@ const Header = () => {
                                 <Nav.Link href="#products">Products</Nav.Link>
                                 <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link href="#contact">Contact</Nav.Link>
+                                <Nav.Link href="#" className=''>CART <FaCartArrowDown></FaCartArrowDown></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
-                    </Container>
-                </Navbar>
+                    </Navbar>
+                </Container>
         </section>
     );
 };
